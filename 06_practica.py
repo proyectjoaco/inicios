@@ -16,19 +16,19 @@
 +sumar 1 a la edad del usuario
 +mostrar un mensaje indicando si es mayor de edad (>= 18)
 """
-"""
-name = (input("cual es tu nombre?: "))
-age = (input("cuantos años tienes?: "))
-height = (input("cuanto mides?: "))
+
+name = (input ("cual es tu nombre?: "))
+age = (input ("cuantos años tienes?: "))
+height = (input ("cuanto mides?: "))
 user1_tuple = name, age, height
 print (user1_tuple)
 list_users = list()
 list_users = [user1_tuple]
 print (list_users)
-print(len(list_users))
+print (len (list_users))
 print (name)
-print (user1_tuple[-1])
-age = (int(age) + 1)
+print (user1_tuple [-1])
+age = (int (age) + 1)
 print (age)
 if age >= 18:
 
@@ -37,8 +37,9 @@ if age >= 18:
 else:
 
     print ("eres menor de edad, no puedes pasar")
-    """
+
 ### segundo ejercicio###
+
 """
 Ejercicio puente (muy corto)
 
@@ -59,12 +60,13 @@ Nada de archivos. Nada de JSON. Simple.
 nombres_users = []
 
 while True:
-    name = input("ingrese un nombre (o salir): ")
+    name = input ("ingrese un nombre (o salir): ")
 
     if name == "salir":
-        print("los usuarios son:", nombres_users)
+        print ("los usuarios son:", nombres_users)
         break
     else:
-        nombres_users.append(name)
+        nombres_users.append (name) 
+# este ejercicio no me salio, pero una vez resuelto por chat entendi el problema que tenia y su resolucion
 
 
