@@ -11,7 +11,7 @@ Este repositorio contiene mis primeros ejercicios mientras aprendo los fundament
 - 04_listas.py
 - 05_tuple.py
 - 06_practica.py
-
+- 07_sets.py
 ## Objetivo
 Aprender Python desde cero y practicar de forma constante.
 
