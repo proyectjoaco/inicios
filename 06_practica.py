@@ -69,4 +69,55 @@ while True:
         nombres_users.append (name) 
 # este ejercicio no me salio, pero una vez resuelto por chat entendi el problema que tenia y su resolucion
 
+#otro ejercicio
 
+name = "joaquin aranda"
+age = 18
+carrera =  ("ingenieria en sistemas", 5)
+materias = ['matematica', 'programacion', 'fisica','matematica', 'programacion', 'fisica']
+materias_set = set (materias)
+notas = [7,8,6,9,10]
+suma = 0
+
+print ("Nombre: ",name.upper())
+print ("edad actual: ",age," años")
+print ("edad al terminar la carrera: ", (age + carrera[-1]))
+print ("carrera: ",carrera[0])
+print ("duracion: ",carrera[-1])
+print ("materias distintas: ", len(materias_set))
+print ("listado de materias: ",materias_set)
+print ("notas: ")
+for nota in notas:
+    print ("-", nota )
+print ("cantidad de notas: ", len(notas))
+for nota in notas: suma = suma + nota
+print ("suma", suma )
+print ("promedio: ", suma / len(notas))
+
+#otro ejercicio
+
+name = "joaquin aranda"
+age = 18
+carrera =  ("ingenieria en sistemas", 5)
+notas = [7,8,6,9,10]
+suma = 0
+promedio = 0
+
+print ("nombre: ",name.upper())
+print ("edad: ", age, "años")
+print ("carrera: ", carrera[0])
+print ("duracion: ", carrera[-1])
+print ("edad al finalizar: ", (age + carrera[-1]), "años")
+for nota in notas:
+    print ("-", nota)
+    suma =  suma + nota
+print ("promedio: ", suma / len(notas))
+print ("nota mas alta: ", notas[-1])
+print ("nota mas baja: ", notas[3])
+promedio = suma / len (notas)
+if promedio >= 7:
+          print ("aprobado")
+elif promedio >= 4: 
+       print ("recupera")
+else:
+          print ("desaprobado")
